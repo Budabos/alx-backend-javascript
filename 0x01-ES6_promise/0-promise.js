@@ -1,5 +1,7 @@
-
-/* eslint-disable guard-for-in */
-rt default function getResponseFromAPI() {
-	return new Promise((resolve, reject) => {});
+export default function getResponseFromAPI() {
+  const promise = new Promise((resolve, reject) => {
+    resolve();
+    reject();
+  });
+  return promise;
 }
